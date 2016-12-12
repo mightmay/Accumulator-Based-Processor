@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Computer/Desktop/verlilog/controller-final/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Computer/Desktop/verlilog/controller-final/xst"
+elaborate
+-ifn .prj
+-ifmt mixed

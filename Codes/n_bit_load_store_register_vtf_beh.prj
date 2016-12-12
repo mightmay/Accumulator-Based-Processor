@@ -1,0 +1,6 @@
+verilog work "positive_edge_triggered_d_flipflop.v"
+verilog work "mux_2x1_rtl.v"
+verilog work "load_store_register_bitslice.v"
+verilog work "n_bit_load_store_register.v"
+verilog work "n_bit_load_store_register_vtf.v"
+verilog work "C:/Xilinx/14.5/ISE_DS/ISE//verilog/src/glbl.v"

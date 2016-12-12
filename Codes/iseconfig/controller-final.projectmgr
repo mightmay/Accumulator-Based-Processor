@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="controller-final" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/CPU C:|Users|Computer|Desktop|verlilog|controller-final|CPU.v</ClosedNode>
+         <ClosedNode>/CPU C:|Users|Computer|Desktop|verlilog|controller-final|CPU.v/PCounterIncrement - n_bit_alu</ClosedNode>
+         <ClosedNode>/CPU C:|Users|Computer|Desktop|verlilog|controller-final|CPU.v/PCounterIncrement - n_bit_alu/adder - alu_bitslice</ClosedNode>
+         <ClosedNode>/CPU C:|Users|Computer|Desktop|verlilog|controller-final|CPU.v/StageRegAddrMode - nBit_ld_st_reg_gen</ClosedNode>
+         <ClosedNode>/CPU C:|Users|Computer|Desktop|verlilog|controller-final|CPU.v/StageRegData - nBit_ld_st_reg_gen</ClosedNode>
+         <ClosedNode>/CPU C:|Users|Computer|Desktop|verlilog|controller-final|CPU.v/StageRegInstr - nBit_ld_st_reg_gen/bitreg - register</ClosedNode>
+         <ClosedNode>/CPU C:|Users|Computer|Desktop|verlilog|controller-final|CPU.v/StageRegPCtr - nBit_ld_st_reg_gen</ClosedNode>
+         <ClosedNode>/CPU1 C:|Users|Computer|Desktop|verlilog|controller-final|CPU1.v</ClosedNode>
+         <ClosedNode>/CPU1 C:|Users|Computer|Desktop|verlilog|controller-final|CPU1.v/StageRegAddrMode - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/CPU1 C:|Users|Computer|Desktop|verlilog|controller-final|CPU1.v/StageRegData - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/CPU1 C:|Users|Computer|Desktop|verlilog|controller-final|CPU1.v/StageRegInstr - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/CPU1 C:|Users|Computer|Desktop|verlilog|controller-final|CPU1.v/StageRegPCtr - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/CPU2 C:|Users|Computer|Desktop|verlilog|controller-final|CPU2.v</ClosedNode>
+         <ClosedNode>/CPU2 C:|Users|Computer|Desktop|verlilog|controller-final|CPU2.v/ACC - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/CPU2 C:|Users|Computer|Desktop|verlilog|controller-final|CPU2.v/ALU - n_bit_alu</ClosedNode>
+         <ClosedNode>/CPU2 C:|Users|Computer|Desktop|verlilog|controller-final|CPU2.v/IndirectAddrReg - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/CPU2 C:|Users|Computer|Desktop|verlilog|controller-final|CPU2.v/coutReg - load_store_register_bitslice</ClosedNode>
+         <ClosedNode>/CPU2 C:|Users|Computer|Desktop|verlilog|controller-final|CPU2.v/nBitALU - nBitALU</ClosedNode>
+         <ClosedNode>/CPU2 C:|Users|Computer|Desktop|verlilog|controller-final|CPU2.v/overflowReg - load_store_register_bitslice</ClosedNode>
+         <ClosedNode>/CPU2 C:|Users|Computer|Desktop|verlilog|controller-final|CPU2.v/zeroReg - load_store_register_bitslice</ClosedNode>
+         <ClosedNode>/TOP C:|Users|Computer|Desktop|verlilog|controller-final|TOP.v/stage1 - CPU1</ClosedNode>
+         <ClosedNode>/TOP C:|Users|Computer|Desktop|verlilog|controller-final|TOP.v/stage1 - CPU1/StageRegAddrMode - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/TOP C:|Users|Computer|Desktop|verlilog|controller-final|TOP.v/stage1 - CPU1/StageRegData - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/TOP C:|Users|Computer|Desktop|verlilog|controller-final|TOP.v/stage1 - CPU1/StageRegInstr - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/TOP C:|Users|Computer|Desktop|verlilog|controller-final|TOP.v/stage1 - CPU1/StageRegPCtr - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/TOP C:|Users|Computer|Desktop|verlilog|controller-final|TOP.v/stage2 - CPU2</ClosedNode>
+         <ClosedNode>/TOP C:|Users|Computer|Desktop|verlilog|controller-final|TOP.v/stage2 - CPU2/ACC - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/TOP C:|Users|Computer|Desktop|verlilog|controller-final|TOP.v/stage2 - CPU2/ALU - n_bit_alu</ClosedNode>
+         <ClosedNode>/TOP C:|Users|Computer|Desktop|verlilog|controller-final|TOP.v/stage2 - CPU2/IndirectAddrReg - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/TOP C:|Users|Computer|Desktop|verlilog|controller-final|TOP.v/stage2 - CPU2/coutReg - load_store_register_bitslice</ClosedNode>
+         <ClosedNode>/TOP C:|Users|Computer|Desktop|verlilog|controller-final|TOP.v/stage2 - CPU2/overflowReg - load_store_register_bitslice</ClosedNode>
+         <ClosedNode>/TOP C:|Users|Computer|Desktop|verlilog|controller-final|TOP.v/stage2 - CPU2/zeroReg - load_store_register_bitslice</ClosedNode>
+         <ClosedNode>/contvtf C:|Users|Computer|Desktop|verlilog|controller-final|contvtf.v</ClosedNode>
+         <ClosedNode>/nBit_ld_st_reg_gen C:|Users|Computer|Desktop|verlilog|controller-final|nBit_ld_st_reg_gen.v</ClosedNode>
+         <ClosedNode>/nBit_ld_st_reg_gen C:|Users|Computer|Desktop|verlilog|controller-final|nBit_ld_st_reg_gen.v/bitreg - register</ClosedNode>
+         <ClosedNode>/n_bit_alu C:|Users|Computer|Desktop|verlilog|controller-final|nBitALU.v</ClosedNode>
+         <ClosedNode>/n_bit_alu C:|Users|Computer|Desktop|verlilog|controller-final|n_bit_alu.v</ClosedNode>
+         <ClosedNode>/n_bit_shifter C:|Users|Computer|Desktop|verlilog|controller-final|n_bit_shifter.v</ClosedNode>
+         <ClosedNode>/register C:|Users|Computer|Desktop|verlilog|5-2|controller-final|register.v</ClosedNode>
+         <ClosedNode>/register C:|Users|Computer|Desktop|verlilog|controller-final|register.v</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Computer|Desktop|verlilog|5-2|controller-final|topMod.v/firststage - CPU1/StageRegAddrMode - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Computer|Desktop|verlilog|5-2|controller-final|topMod.v/firststage - CPU1/StageRegData - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Computer|Desktop|verlilog|5-2|controller-final|topMod.v/firststage - CPU1/StageRegInstr - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Computer|Desktop|verlilog|5-2|controller-final|topMod.v/firststage - CPU1/StageRegPCtr - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Computer|Desktop|verlilog|5-2|controller-final|topMod.v/secondstage - CPU2/ACC - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Computer|Desktop|verlilog|5-2|controller-final|topMod.v/secondstage - CPU2/ALU - n_bit_alu</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Computer|Desktop|verlilog|5-2|controller-final|topMod.v/secondstage - CPU2/CacheAndRAM - CacheData</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Computer|Desktop|verlilog|5-2|controller-final|topMod.v/secondstage - CPU2/IndirectAddrReg - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Computer|Desktop|verlilog|5-2|controller-final|topMod.v/secondstage - CPU2/coutReg - load_store_register_bitslice</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Computer|Desktop|verlilog|5-2|controller-final|topMod.v/secondstage - CPU2/overflowReg - load_store_register_bitslice</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Computer|Desktop|verlilog|5-2|controller-final|topMod.v/secondstage - CPU2/zeroReg - load_store_register_bitslice</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Computer|Desktop|verlilog|controller-final|topMod.v/firststage - CPU1</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Computer|Desktop|verlilog|controller-final|topMod.v/firststage - CPU1/StageRegAddrMode - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Computer|Desktop|verlilog|controller-final|topMod.v/firststage - CPU1/StageRegData - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Computer|Desktop|verlilog|controller-final|topMod.v/firststage - CPU1/StageRegInstr - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Computer|Desktop|verlilog|controller-final|topMod.v/firststage - CPU1/StageRegPCtr - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Computer|Desktop|verlilog|controller-final|topMod.v/secondstage - CPU2/ACC - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Computer|Desktop|verlilog|controller-final|topMod.v/secondstage - CPU2/ALU - n_bit_alu</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Computer|Desktop|verlilog|controller-final|topMod.v/secondstage - CPU2/IndirectAddrReg - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Computer|Desktop|verlilog|controller-final|topMod.v/secondstage - CPU2/coutReg - load_store_register_bitslice</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Computer|Desktop|verlilog|controller-final|topMod.v/secondstage - CPU2/overflowReg - load_store_register_bitslice</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Computer|Desktop|verlilog|controller-final|topMod.v/secondstage - CPU2/zeroReg - load_store_register_bitslice</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>IRAM - RAM (C:/Users/Computer/Desktop/verlilog/5-2/controller-final/RAM.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001f6000000020000000000000000000000000200000064ffffffff000000810000000300000002000001f60000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>IRAM - RAM (C:/Users/Computer/Desktop/verlilog/5-2/controller-final/RAM.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000170000000010000000100000000000000000000000064ffffffff000000810000000000000001000001700000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000252000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000001860000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>alu_bitslice.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000170000000010000000100000000000000000000000064ffffffff000000810000000000000001000001700000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/CPU1 C:|Users|Computer|Desktop|verlilog|controller-final|CPU1.v</ClosedNode>
+         <ClosedNode>/CPU2 C:|Users|Computer|Desktop|verlilog|controller-final|CPU2.v</ClosedNode>
+         <ClosedNode>/TOP C:|Users|Computer|Desktop|verlilog|controller-final|TOP.v</ClosedNode>
+         <ClosedNode>/TOP C:|Users|Computer|Desktop|verlilog|controller-final|TOP.v/stage1 - CPU1/StageRegAddrMode - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/TOP C:|Users|Computer|Desktop|verlilog|controller-final|TOP.v/stage1 - CPU1/StageRegData - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/TOP C:|Users|Computer|Desktop|verlilog|controller-final|TOP.v/stage1 - CPU1/StageRegInstr - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/TOP C:|Users|Computer|Desktop|verlilog|controller-final|TOP.v/stage1 - CPU1/StageRegPCtr - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/TOP C:|Users|Computer|Desktop|verlilog|controller-final|TOP.v/stage2 - CPU2</ClosedNode>
+         <ClosedNode>/VTFlatest C:|Users|Computer|Desktop|verlilog|5-2|controller-final|VTFlatest.v/uut - topMod/firststage - CPU1</ClosedNode>
+         <ClosedNode>/VTFlatest C:|Users|Computer|Desktop|verlilog|5-2|controller-final|VTFlatest.v/uut - topMod/firststage - CPU1/StageRegAddrMode - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/VTFlatest C:|Users|Computer|Desktop|verlilog|5-2|controller-final|VTFlatest.v/uut - topMod/firststage - CPU1/StageRegData - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/VTFlatest C:|Users|Computer|Desktop|verlilog|5-2|controller-final|VTFlatest.v/uut - topMod/firststage - CPU1/StageRegInstr - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/VTFlatest C:|Users|Computer|Desktop|verlilog|5-2|controller-final|VTFlatest.v/uut - topMod/firststage - CPU1/StageRegPCtr - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/VTFlatest C:|Users|Computer|Desktop|verlilog|5-2|controller-final|VTFlatest.v/uut - topMod/secondstage - CPU2/ACC - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/VTFlatest C:|Users|Computer|Desktop|verlilog|5-2|controller-final|VTFlatest.v/uut - topMod/secondstage - CPU2/ALU - n_bit_alu</ClosedNode>
+         <ClosedNode>/VTFlatest C:|Users|Computer|Desktop|verlilog|5-2|controller-final|VTFlatest.v/uut - topMod/secondstage - CPU2/IndirectAddrReg - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/VTFlatest C:|Users|Computer|Desktop|verlilog|5-2|controller-final|VTFlatest.v/uut - topMod/secondstage - CPU2/coutReg - load_store_register_bitslice</ClosedNode>
+         <ClosedNode>/VTFlatest C:|Users|Computer|Desktop|verlilog|5-2|controller-final|VTFlatest.v/uut - topMod/secondstage - CPU2/overflowReg - load_store_register_bitslice</ClosedNode>
+         <ClosedNode>/VTFlatest C:|Users|Computer|Desktop|verlilog|5-2|controller-final|VTFlatest.v/uut - topMod/secondstage - CPU2/zeroReg - load_store_register_bitslice</ClosedNode>
+         <ClosedNode>/contvtf C:|Users|Computer|Desktop|verlilog|controller-final|contvtf.v</ClosedNode>
+         <ClosedNode>/cpu2vtf C:|Users|Computer|Desktop|verlilog|5-2|controller-final|cpu2vtf.v</ClosedNode>
+         <ClosedNode>/cpu2vtf C:|Users|Computer|Desktop|verlilog|controller-final|cpu2vtf.v/uut - CPU2</ClosedNode>
+         <ClosedNode>/cpu2vtf C:|Users|Computer|Desktop|verlilog|controller-final|cpu2vtf.v/uut - CPU2/ACC - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/cpu2vtf C:|Users|Computer|Desktop|verlilog|controller-final|cpu2vtf.v/uut - CPU2/ALU - n_bit_alu</ClosedNode>
+         <ClosedNode>/cpu2vtf C:|Users|Computer|Desktop|verlilog|controller-final|cpu2vtf.v/uut - CPU2/IndirectAddrReg - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/cpu2vtf C:|Users|Computer|Desktop|verlilog|controller-final|cpu2vtf.v/uut - CPU2/coutReg - load_store_register_bitslice</ClosedNode>
+         <ClosedNode>/cpu2vtf C:|Users|Computer|Desktop|verlilog|controller-final|cpu2vtf.v/uut - CPU2/nBitALU - nBitALU</ClosedNode>
+         <ClosedNode>/cpu2vtf C:|Users|Computer|Desktop|verlilog|controller-final|cpu2vtf.v/uut - CPU2/overflowReg - load_store_register_bitslice</ClosedNode>
+         <ClosedNode>/cpu2vtf C:|Users|Computer|Desktop|verlilog|controller-final|cpu2vtf.v/uut - CPU2/zeroReg - load_store_register_bitslice</ClosedNode>
+         <ClosedNode>/cpuvtf C:|Users|Computer|Desktop|verlilog|controller-final|cpuvtf.v</ClosedNode>
+         <ClosedNode>/cpuvtf C:|Users|Computer|Desktop|verlilog|controller-final|cpuvtf.v/uut - CPU</ClosedNode>
+         <ClosedNode>/cpuvtf C:|Users|Computer|Desktop|verlilog|controller-final|cpuvtf.v/uut - CPU/PCounterIncrement - n_bit_alu</ClosedNode>
+         <ClosedNode>/cpuvtf C:|Users|Computer|Desktop|verlilog|controller-final|cpuvtf.v/uut - CPU/StageRegAddrMode - nBit_ld_st_reg_gen</ClosedNode>
+         <ClosedNode>/cpuvtf C:|Users|Computer|Desktop|verlilog|controller-final|cpuvtf.v/uut - CPU/StageRegData - nBit_ld_st_reg_gen</ClosedNode>
+         <ClosedNode>/cpuvtf C:|Users|Computer|Desktop|verlilog|controller-final|cpuvtf.v/uut - CPU/StageRegInstr - nBit_ld_st_reg_gen</ClosedNode>
+         <ClosedNode>/cpuvtf C:|Users|Computer|Desktop|verlilog|controller-final|cpuvtf.v/uut - CPU/StageRegPCtr - nBit_ld_st_reg_gen</ClosedNode>
+         <ClosedNode>/nBit_ld_st_reg_gen C:|Users|Computer|Desktop|verlilog|controller-final|nBit_ld_st_reg_gen.v</ClosedNode>
+         <ClosedNode>/n_bit_alu C:|Users|Computer|Desktop|verlilog|controller-final|nBitALU.v</ClosedNode>
+         <ClosedNode>/n_bit_load_store_register C:|Users|Computer|Desktop|verlilog|controller-final|n_bit_load_store_register.v</ClosedNode>
+         <ClosedNode>/n_bit_shifter C:|Users|Computer|Desktop|verlilog|controller-final|n_bit_shifter.v</ClosedNode>
+         <ClosedNode>/oo C:|Users|Computer|Desktop|verlilog|controller-final|oo.v</ClosedNode>
+         <ClosedNode>/oo C:|Users|Computer|Desktop|verlilog|controller-final|oo.v/uut - CPU/PCounterIncrement - n_bit_alu</ClosedNode>
+         <ClosedNode>/oo C:|Users|Computer|Desktop|verlilog|controller-final|oo.v/uut - CPU/StageRegAddrMode - nBit_ld_st_reg_gen</ClosedNode>
+         <ClosedNode>/oo C:|Users|Computer|Desktop|verlilog|controller-final|oo.v/uut - CPU/StageRegData - nBit_ld_st_reg_gen</ClosedNode>
+         <ClosedNode>/oo C:|Users|Computer|Desktop|verlilog|controller-final|oo.v/uut - CPU/StageRegInstr - nBit_ld_st_reg_gen/bitreg - register</ClosedNode>
+         <ClosedNode>/oo C:|Users|Computer|Desktop|verlilog|controller-final|oo.v/uut - CPU/StageRegPCtr - nBit_ld_st_reg_gen</ClosedNode>
+         <ClosedNode>/ooo C:|Users|Computer|Desktop|verlilog|controller-final|ooo.v</ClosedNode>
+         <ClosedNode>/ooo C:|Users|Computer|Desktop|verlilog|controller-final|ooo.v/uut - CPU</ClosedNode>
+         <ClosedNode>/regi C:|Users|Computer|Desktop|verlilog|controller-final|reg.v</ClosedNode>
+         <ClosedNode>/register C:|Users|Computer|Desktop|verlilog|5-2|controller-final|register.v</ClosedNode>
+         <ClosedNode>/register C:|Users|Computer|Desktop|verlilog|controller-final|register.v</ClosedNode>
+         <ClosedNode>/sad C:|Users|Computer|Desktop|verlilog|controller-final|sad.v</ClosedNode>
+         <ClosedNode>/top2vtf C:|Users|Computer|Desktop|verlilog|controller-final|top2vtf.v</ClosedNode>
+         <ClosedNode>/topmodvtf2 C:|Users|Computer|Desktop|verlilog|controller-final|topmodvtf2.v</ClosedNode>
+         <ClosedNode>/topvtf C:|Users|Computer|Desktop|verlilog|controller-final|topvtf.v</ClosedNode>
+         <ClosedNode>/topvtf C:|Users|Computer|Desktop|verlilog|controller-final|topvtf.v/uut - TOP/stage1 - CPU1</ClosedNode>
+         <ClosedNode>/topvtf C:|Users|Computer|Desktop|verlilog|controller-final|topvtf.v/uut - TOP/stage2 - CPU2</ClosedNode>
+         <ClosedNode>/vsa C:|Users|Computer|Desktop|verlilog|controller-final|vsa.v</ClosedNode>
+         <ClosedNode>/vsa C:|Users|Computer|Desktop|verlilog|controller-final|vsa.v/uut - CPU1/StageRegAddrMode - nBit_ld_st_reg_gen</ClosedNode>
+         <ClosedNode>/vsa C:|Users|Computer|Desktop|verlilog|controller-final|vsa.v/uut - CPU1/StageRegData - nBit_ld_st_reg_gen</ClosedNode>
+         <ClosedNode>/vsa C:|Users|Computer|Desktop|verlilog|controller-final|vsa.v/uut - CPU1/StageRegInstr - nBit_ld_st_reg_gen</ClosedNode>
+         <ClosedNode>/vsa C:|Users|Computer|Desktop|verlilog|controller-final|vsa.v/uut - CPU1/StageRegPCtr - nBit_ld_st_reg_gen</ClosedNode>
+         <ClosedNode>/vtf32 C:|Users|Computer|Desktop|verlilog|controller-final|vtf32.v/uut - CPU1</ClosedNode>
+         <ClosedNode>/vtf4 C:|Users|Computer|Desktop|verlilog|5-2|controller-final|vtf4.v</ClosedNode>
+         <ClosedNode>/vtf4 C:|Users|Computer|Desktop|verlilog|5-2|controller-final|vtf4.v/uut - topMod/firststage - CPU1/StageRegAddrMode - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/vtf4 C:|Users|Computer|Desktop|verlilog|5-2|controller-final|vtf4.v/uut - topMod/firststage - CPU1/StageRegData - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/vtf4 C:|Users|Computer|Desktop|verlilog|5-2|controller-final|vtf4.v/uut - topMod/firststage - CPU1/StageRegInstr - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/vtf4 C:|Users|Computer|Desktop|verlilog|5-2|controller-final|vtf4.v/uut - topMod/firststage - CPU1/StageRegPCtr - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/vtf4 C:|Users|Computer|Desktop|verlilog|5-2|controller-final|vtf4.v/uut - topMod/secondstage - CPU2</ClosedNode>
+         <ClosedNode>/vtf44 C:|Users|Computer|Desktop|verlilog|5-2|controller-final|vtf44.v</ClosedNode>
+         <ClosedNode>/vtf44 C:|Users|Computer|Desktop|verlilog|5-2|controller-final|vtf44.v/uut - topMod/firststage - CPU1</ClosedNode>
+         <ClosedNode>/vtf44 C:|Users|Computer|Desktop|verlilog|5-2|controller-final|vtf44.v/uut - topMod/secondstage - CPU2/ACC - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/vtf44 C:|Users|Computer|Desktop|verlilog|5-2|controller-final|vtf44.v/uut - topMod/secondstage - CPU2/ALU - n_bit_alu</ClosedNode>
+         <ClosedNode>/vtf44 C:|Users|Computer|Desktop|verlilog|5-2|controller-final|vtf44.v/uut - topMod/secondstage - CPU2/IndirectAddrReg - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/vtf44 C:|Users|Computer|Desktop|verlilog|5-2|controller-final|vtf44.v/uut - topMod/secondstage - CPU2/coutReg - load_store_register_bitslice</ClosedNode>
+         <ClosedNode>/vtf44 C:|Users|Computer|Desktop|verlilog|5-2|controller-final|vtf44.v/uut - topMod/secondstage - CPU2/overflowReg - load_store_register_bitslice</ClosedNode>
+         <ClosedNode>/vtf44 C:|Users|Computer|Desktop|verlilog|5-2|controller-final|vtf44.v/uut - topMod/secondstage - CPU2/zeroReg - load_store_register_bitslice</ClosedNode>
+         <ClosedNode>/vtf44 C:|Users|Computer|Desktop|verlilog|controller-final|vtf44.v/uut - topMod/firststage - CPU1/StageRegAddrMode - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/vtf44 C:|Users|Computer|Desktop|verlilog|controller-final|vtf44.v/uut - topMod/firststage - CPU1/StageRegData - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/vtf44 C:|Users|Computer|Desktop|verlilog|controller-final|vtf44.v/uut - topMod/firststage - CPU1/StageRegInstr - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/vtf44 C:|Users|Computer|Desktop|verlilog|controller-final|vtf44.v/uut - topMod/firststage - CPU1/StageRegPCtr - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/vtf44 C:|Users|Computer|Desktop|verlilog|controller-final|vtf44.v/uut - topMod/secondstage - CPU2</ClosedNode>
+         <ClosedNode>/vtf44 C:|Users|Computer|Desktop|verlilog|controller-final|vtf44.v/uut - topMod/secondstage - CPU2/ACC - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/vtf44 C:|Users|Computer|Desktop|verlilog|controller-final|vtf44.v/uut - topMod/secondstage - CPU2/ALU - n_bit_alu</ClosedNode>
+         <ClosedNode>/vtf44 C:|Users|Computer|Desktop|verlilog|controller-final|vtf44.v/uut - topMod/secondstage - CPU2/IndirectAddrReg - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/vtf44 C:|Users|Computer|Desktop|verlilog|controller-final|vtf44.v/uut - topMod/secondstage - CPU2/coutReg - load_store_register_bitslice</ClosedNode>
+         <ClosedNode>/vtf44 C:|Users|Computer|Desktop|verlilog|controller-final|vtf44.v/uut - topMod/secondstage - CPU2/overflowReg - load_store_register_bitslice</ClosedNode>
+         <ClosedNode>/vtf44 C:|Users|Computer|Desktop|verlilog|controller-final|vtf44.v/uut - topMod/secondstage - CPU2/zeroReg - load_store_register_bitslice</ClosedNode>
+         <ClosedNode>/vtf6 C:|Users|Computer|Desktop|verlilog|5-2|controller-final|vtf6.v</ClosedNode>
+         <ClosedNode>/vtf6 C:|Users|Computer|Desktop|verlilog|controller-final|vtf6.v</ClosedNode>
+         <ClosedNode>/vtf6 C:|Users|Computer|Desktop|verlilog|controller-final|vtf6.v/uut - CPU1</ClosedNode>
+         <ClosedNode>/vtf6 C:|Users|Computer|Desktop|verlilog|controller-final|vtf6.v/uut - CPU1/StageRegAddrMode - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/vtf6 C:|Users|Computer|Desktop|verlilog|controller-final|vtf6.v/uut - CPU1/StageRegData - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/vtf6 C:|Users|Computer|Desktop|verlilog|controller-final|vtf6.v/uut - CPU1/StageRegInstr - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/vtf6 C:|Users|Computer|Desktop|verlilog|controller-final|vtf6.v/uut - CPU1/StageRegPCtr - n_bit_load_store_register</ClosedNode>
+         <ClosedNode>/vtftopmod22 C:|Users|Computer|Desktop|verlilog|5-2|controller-final|vtftopmod22.v</ClosedNode>
+         <ClosedNode>/vtftopmod22 C:|Users|Computer|Desktop|verlilog|controller-final|vtftopmod22.v</ClosedNode>
+         <ClosedNode>/vvv C:|Users|Computer|Desktop|verlilog|controller-final|vvv.v/uut - CPU1</ClosedNode>
+         <ClosedNode>/vvv C:|Users|Computer|Desktop|verlilog|controller-final|vvv.v/uut - CPU1/StageRegAddrMode - nBit_ld_st_reg_gen</ClosedNode>
+         <ClosedNode>/vvv C:|Users|Computer|Desktop|verlilog|controller-final|vvv.v/uut - CPU1/StageRegData - nBit_ld_st_reg_gen</ClosedNode>
+         <ClosedNode>/vvv C:|Users|Computer|Desktop|verlilog|controller-final|vvv.v/uut - CPU1/StageRegInstr - nBit_ld_st_reg_gen</ClosedNode>
+         <ClosedNode>/vvv C:|Users|Computer|Desktop|verlilog|controller-final|vvv.v/uut - CPU1/StageRegPCtr - nBit_ld_st_reg_gen</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>DRAM - DataRAMRAM (C:/Users/Computer/Desktop/verlilog/5-2/controller-final/DataRAM.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001f9000000020000000000000000000000000200000064ffffffff000000810000000300000002000001f90000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>DRAM - DataRAMRAM (C:/Users/Computer/Desktop/verlilog/5-2/controller-final/DataRAM.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000170000000010000000100000000000000000000000064ffffffff000000810000000000000001000001700000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000170000000010000000100000000000000000000000064ffffffff000000810000000000000001000001700000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000000f0000000ed01000000050100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+</Project>

@@ -1,0 +1,6 @@
+verilog isim_temp "positive_edge_triggered_d_flipflop.v"
+verilog isim_temp "mux_2x1_rtl.v"
+verilog isim_temp "load_store_register_bitslice.v"
+verilog isim_temp "n_bit_load_store_register.v"
+verilog isim_temp "n_bit_load_store_register_vtf.v"
+verilog isim_temp "C:/Xilinx/14.5/ISE_DS/ISE//verilog/src/glbl.v"

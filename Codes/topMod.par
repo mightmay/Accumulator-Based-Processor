@@ -1,0 +1,280 @@
+Release 14.5 par P.58f (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+COMPUTER-PC::  Sun May 04 22:00:09 2014
+
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+
+
+Constraints file: topMod.pcf.
+Loading device for application Rf_Device from file '3s50.nph' in environment C:\Xilinx\14.5\ISE_DS\ISE\.
+   "topMod" is an NCD, version 3.2, device xc3s50, package pq208, speed -5
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+INFO:Par:282 - No user timing constraints were detected or you have set the option to ignore timing constraints ("par
+   -x"). Place and Route will run in "Performance Evaluation Mode" to automatically improve the performance of all
+   internal clocks in this design. Because there are not defined timing requirements, a timing score will not be
+   reported in the PAR report in this mode. The PAR timing summary will list the performance achieved for each clock.
+   Note: For the fastest runtime, set the effort level to "std".  For best performance, set the effort level to "high".
+
+Device speed data version:  "PRODUCTION 1.39 2013-03-26".
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                        1 out of 8      12%
+   Number of External IOBs                  22 out of 124    17%
+      Number of LOCed IOBs                   0 out of 22      0%
+
+   Number of Slices                        168 out of 768    21%
+      Number of SLICEMs                      0 out of 384     0%
+
+
+
+Overall effort level (-ol):   High 
+Placer effort level (-pl):    High 
+Placer cost table entry (-t): 1
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 0 secs 
+Finished initial Timing Analysis.  REAL time: 0 secs 
+
+
+Starting Placer
+Total REAL time at the beginning of Placer: 0 secs 
+Total CPU  time at the beginning of Placer: 0 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:46e6) REAL time: 0 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:46e6) REAL time: 0 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:46e6) REAL time: 0 secs 
+
+Phase 4.2  Initial Clock and IO Placement
+...........
+Phase 4.2  Initial Clock and IO Placement (Checksum:5421c1e) REAL time: 1 secs 
+
+Phase 5.36  Local Placement Optimization
+Phase 5.36  Local Placement Optimization (Checksum:5421c1e) REAL time: 1 secs 
+
+Phase 6.3  Local Placement Optimization
+...........
+Phase 6.3  Local Placement Optimization (Checksum:5ca03584) REAL time: 1 secs 
+
+Phase 7.5  Local Placement Optimization
+Phase 7.5  Local Placement Optimization (Checksum:5ca03584) REAL time: 1 secs 
+
+Phase 8.8  Global Placement
+................
+Phase 8.8  Global Placement (Checksum:16762d1a) REAL time: 2 secs 
+
+Phase 9.5  Local Placement Optimization
+Phase 9.5  Local Placement Optimization (Checksum:16762d1a) REAL time: 2 secs 
+
+Phase 10.18  Placement Optimization
+Phase 10.18  Placement Optimization (Checksum:1b9005d7) REAL time: 2 secs 
+
+Phase 11.5  Local Placement Optimization
+Phase 11.5  Local Placement Optimization (Checksum:1b9005d7) REAL time: 2 secs 
+
+Total REAL time to Placer completion: 2 secs 
+Total CPU  time to Placer completion: 2 secs 
+Writing design to file topMod.ncd
+
+
+
+Starting Router
+
+
+Phase  1  : 1042 unrouted;      REAL time: 2 secs 
+
+Phase  2  : 942 unrouted;      REAL time: 2 secs 
+
+Phase  3  : 353 unrouted;      REAL time: 2 secs 
+
+Phase  4  : 364 unrouted; (Par is working to improve performance)     REAL time: 2 secs 
+
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 secs 
+
+Updating file: topMod.ncd with current fully routed design.
+
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
+
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
+
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
+
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
+
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
+WARNING:Route:455 - CLK Net:secondstage/CacheAndRAM/fp<5> may have excessive skew because 
+      7 CLK pins and 31 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:secondstage/yp<22> may have excessive skew because 
+      0 CLK pins and 13 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:secondstage/yp<9> may have excessive skew because 
+      1 CLK pins and 4 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:secondstage/yp<26> may have excessive skew because 
+      6 CLK pins and 13 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:secondstage/yp<50> may have excessive skew because 
+      0 CLK pins and 3 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:secondstage/StageComplete_or0000 may have excessive skew because 
+      2 CLK pins and 0 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:secondstage/yp<1> may have excessive skew because 
+      1 CLK pins and 2 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:secondstage/CacheAndRAM/fp<12> may have excessive skew because 
+      0 CLK pins and 2 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:secondstage/CacheAndRAM/dataout_or0000 may have excessive skew because 
+      2 CLK pins and 0 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:secondstage/CacheAndRAM/CacheReg_3_cmp_eq0000 may have excessive skew because 
+      2 CLK pins and 0 NON_CLK pins failed to route using a CLK template.
+
+Total REAL time to Router completion: 3 secs 
+Total CPU time to Router completion: 3 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|            clk_IBUF |      BUFGMUX0| No   |   48 |  0.081     |  0.618      |
++---------------------+--------------+------+------+------------+-------------+
+|secondstage/CacheAnd |              |      |      |            |             |
+|           RAM/fp<5> |         Local|      |   38 |  1.188     |  1.953      |
++---------------------+--------------+------+------+------------+-------------+
+|secondstage/CacheAnd |              |      |      |            |             |
+|RAM/CacheReg_0_not00 |              |      |      |            |             |
+|                  02 |         Local|      |    8 |  0.032     |  1.906      |
++---------------------+--------------+------+------+------------+-------------+
+|  secondstage/yp<22> |         Local|      |   19 |  0.034     |  1.935      |
++---------------------+--------------+------+------+------------+-------------+
+|firststage/ovinterru |              |      |      |            |             |
+|        ptReg_or0000 |         Local|      |    1 |  0.000     |  1.619      |
++---------------------+--------------+------+------+------------+-------------+
+|firststage/FirstStag |              |      |      |            |             |
+|    eComplete_or0000 |         Local|      |    1 |  0.000     |  0.307      |
++---------------------+--------------+------+------+------------+-------------+
+|   secondstage/yp<9> |         Local|      |    5 |  0.000     |  0.782      |
++---------------------+--------------+------+------+------------+-------------+
+|secondstage/CacheAnd |              |      |      |            |             |
+|RAM/CacheReg_1_cmp_e |              |      |      |            |             |
+|               q0000 |         Local|      |    4 |  0.101     |  1.973      |
++---------------------+--------------+------+------+------------+-------------+
+|secondstage/CacheAnd |              |      |      |            |             |
+|RAM/CacheReg_0_not00 |              |      |      |            |             |
+|                  03 |         Local|      |    4 |  0.048     |  1.889      |
++---------------------+--------------+------+------+------------+-------------+
+|firststage/S_not0001 |              |      |      |            |             |
+|                     |         Local|      |    5 |  0.100     |  2.064      |
++---------------------+--------------+------+------+------------+-------------+
+|  secondstage/yp<26> |         Local|      |   19 |  0.521     |  1.552      |
++---------------------+--------------+------+------+------------+-------------+
+|  secondstage/yp<50> |         Local|      |   12 |  0.229     |  2.264      |
++---------------------+--------------+------+------+------------+-------------+
+|secondstage/StageCom |              |      |      |            |             |
+|        plete_or0000 |         Local|      |    2 |  1.124     |  2.132      |
++---------------------+--------------+------+------+------------+-------------+
+|   secondstage/yp<1> |         Local|      |    3 |  0.000     |  1.111      |
++---------------------+--------------+------+------+------------+-------------+
+|secondstage/CacheAnd |              |      |      |            |             |
+|          RAM/fp<12> |         Local|      |   10 |  0.120     |  2.257      |
++---------------------+--------------+------+------+------------+-------------+
+|secondstage/CacheAnd |              |      |      |            |             |
+|  RAM/dataout_or0000 |         Local|      |    2 |  0.000     |  1.354      |
++---------------------+--------------+------+------+------------+-------------+
+|secondstage/CacheAnd |              |      |      |            |             |
+|RAM/CacheReg_2_cmp_e |              |      |      |            |             |
+|               q0000 |         Local|      |    4 |  0.030     |  1.910      |
++---------------------+--------------+------+------+------------+-------------+
+|secondstage/ACCld_st |              |      |      |            |             |
+|            r_or0000 |         Local|      |    1 |  0.000     |  1.199      |
++---------------------+--------------+------+------+------------+-------------+
+|secondstage/ALUinMux |              |      |      |            |             |
+|       select_or0000 |         Local|      |    1 |  0.000     |  0.316      |
++---------------------+--------------+------+------+------------+-------------+
+|firststage/StageRegl |              |      |      |            |             |
+|        d_str_or0000 |         Local|      |    1 |  0.000     |  0.307      |
++---------------------+--------------+------+------+------------+-------------+
+|secondstage/ACCMUXse |              |      |      |            |             |
+|         lect_or0000 |         Local|      |    1 |  0.000     |  1.211      |
++---------------------+--------------+------+------+------------+-------------+
+|secondstage/CarryZer |              |      |      |            |             |
+|    oOVld_str_or0000 |         Local|      |    1 |  0.000     |  1.507      |
++---------------------+--------------+------+------+------------+-------------+
+|secondstage/CacheAnd |              |      |      |            |             |
+|RAM/CacheReg_3_cmp_e |              |      |      |            |             |
+|               q0000 |         Local|      |    4 |  1.626     |  1.968      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 0 (Setup: 0, Hold: 0)
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net sec | SETUP       |         N/A|     3.109ns|     N/A|           0
+  ondstage/yp<22>                           | HOLD        |     0.608ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net sec | SETUP       |         N/A|     3.332ns|     N/A|           0
+  ondstage/yp<26>                           | HOLD        |     0.518ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|     6.003ns|     N/A|           0
+  _IBUF                                     | HOLD        |     0.837ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 3 secs 
+Total CPU time to PAR completion: 3 secs 
+
+Peak Memory Usage:  213 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 10
+Number of info messages: 1
+
+Writing design to file topMod.ncd
+
+
+
+PAR done!

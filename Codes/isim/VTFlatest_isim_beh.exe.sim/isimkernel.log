@@ -1,0 +1,28 @@
+Command line:
+   VTFlatest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52910
+
+Mon May 05 13:37:19 2014
+
+
+ Elaboration Time: 0.078 sec
+
+ Current Memory Usage: 527.307 Meg
+
+ Total Signals          : 1194
+ Total Nets             : 621
+ Total Signal Drivers   : 276
+ Total Blocks           : 208
+ Total Primitive Blocks : 137
+ Total Processes        : 414
+ Total Traceable Variables  : 282
+ Total Scalar Nets and Variables : 11447
+
+ Total Simulation Time: 0.390001 sec
+
+ Current Memory Usage: 527.307 Meg
+
+Mon May 05 13:39:08 2014
+

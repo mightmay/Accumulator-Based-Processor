@@ -1,0 +1,179 @@
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.syr" 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.syr" 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.syr" 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.syr" 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.syr" 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.xst" -ofn "C:/Users/Computer/Desktop/verlilog/5-2/controller-final/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 topMod.ngc topMod.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -t 1 topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
