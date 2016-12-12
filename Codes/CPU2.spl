@@ -1,0 +1,12 @@
+[Inputs]
+clk
+reset
+=StageRegInstr_out[4:0]=
+=StageRegAddrMode_out[2:0]=
+=StageRegData_out[7:0]=
+[Outputs]
+=ACCout[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel CPU2
+

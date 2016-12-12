@@ -1,0 +1,24 @@
+vhdtdtfi -lib work C:/Users/Computer/Desktop/verlilog/controller-final/CPU2.v -lang verilog -prj controller-final -o CPU2.spl -module CPU2 -template C:/Xilinx/14.5/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 CPU2.spl C:/Users/Computer/Desktop/verlilog/controller-final/CPU2.sym 
+vhdtdtfi -lang verilog -prj controller-final -o C:/Users/Computer/Desktop/verlilog/controller-final/CPU2.tfi -lib work C:/Users/Computer/Desktop/verlilog/controller-final//CPU2.v -module CPU2 -template C:/Xilinx/14.5/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work C:/Users/Computer/Desktop/verlilog/controller-final/CPU2.v -lang verilog -prj controller-final -o CPU2.spl -module CPU2 -template C:/Xilinx/14.5/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 CPU2.spl C:/Users/Computer/Desktop/verlilog/controller-final/CPU2.sym 
+vhdtdtfi -lang verilog -prj controller-final -o C:/Users/Computer/Desktop/verlilog/controller-final/CPU2.tfi -lib work C:/Users/Computer/Desktop/verlilog/controller-final//CPU2.v -module CPU2 -template C:/Xilinx/14.5/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work C:/Users/Computer/Desktop/verlilog/controller-final/CPU2.v -lang verilog -prj controller-final -o CPU2.spl -module CPU2 -template C:/Xilinx/14.5/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 CPU2.spl C:/Users/Computer/Desktop/verlilog/controller-final/CPU2.sym 
+vhdtdtfi -lib work C:/Users/Computer/Desktop/verlilog/controller-final/CPU2.v -lang verilog -prj controller-final -o CPU2.spl -module CPU2 -template C:/Xilinx/14.5/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 CPU2.spl C:/Users/Computer/Desktop/verlilog/controller-final/CPU2.sym 
+vhdtdtfi -lib work C:/Users/Computer/Desktop/verlilog/controller-final/CPU2.v -lang verilog -prj controller-final -o CPU2.spl -module CPU2 -template C:/Xilinx/14.5/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 CPU2.spl C:/Users/Computer/Desktop/verlilog/controller-final/CPU2.sym 
+vhdtdtfi -lang verilog -prj controller-final -o C:/Users/Computer/Desktop/verlilog/controller-final/CPU2.tfi -lib work C:/Users/Computer/Desktop/verlilog/controller-final//CPU2.v -module CPU2 -template C:/Xilinx/14.5/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work C:/Users/Computer/Desktop/verlilog/controller-final/CPU2.v -lang verilog -prj controller-final -o CPU2.spl -module CPU2 -template C:/Xilinx/14.5/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 CPU2.spl C:/Users/Computer/Desktop/verlilog/controller-final/CPU2.sym 
+vhdtdtfi -lang verilog -prj controller-final -o C:/Users/Computer/Desktop/verlilog/controller-final/CPU2.tfi -lib work C:/Users/Computer/Desktop/verlilog/controller-final//CPU2.v -module CPU2 -template C:/Xilinx/14.5/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work C:/Users/Computer/Desktop/verlilog/controller-final/CPU2.v -lang verilog -prj controller-final -o CPU2.spl -module CPU2 -template C:/Xilinx/14.5/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 CPU2.spl C:/Users/Computer/Desktop/verlilog/controller-final/CPU2.sym 
+vhdtdtfi -lib work C:/Users/Computer/Desktop/verlilog/controller-final/CPU2.v -lang verilog -prj controller-final -o CPU2.spl -module CPU2 -template C:/Xilinx/14.5/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 CPU2.spl C:/Users/Computer/Desktop/verlilog/controller-final/CPU2.sym 
+vhdtdtfi -lib work C:/Users/Computer/Desktop/verlilog/controller-final/CPU2.v -lang verilog -prj controller-final -o CPU2.spl -module CPU2 -template C:/Xilinx/14.5/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 CPU2.spl C:/Users/Computer/Desktop/verlilog/controller-final/CPU2.sym 
+vhdtdtfi -lib work C:/Users/Computer/Desktop/verlilog/controller-final/CPU2.v -lang verilog -prj controller-final -o CPU2.spl -module CPU2 -template C:/Xilinx/14.5/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 CPU2.spl C:/Users/Computer/Desktop/verlilog/controller-final/CPU2.sym 

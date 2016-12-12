@@ -1,0 +1,967 @@
+Release 14.5 - xst P.58f (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: CPU1.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "CPU1.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "CPU1"
+Output Format                      : NGC
+Target Device                      : xc3s50-5-pq208
+
+---- Source Options
+Top Module Name                    : CPU1
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "positive_edge_triggered_d_flipflop.v" in library work
+Compiling verilog file "mux_2x1_rtl.v" in library work
+Module <positive_edge_triggered_d_flipflop> compiled
+Compiling verilog file "load_store_register_bitslice.v" in library work
+Module <mux_2x1_rtl> compiled
+Compiling verilog file "RAM.v" in library work
+Module <load_store_register_bitslice> compiled
+Compiling verilog file "progct_nbit.v" in library work
+Module <RAM> compiled
+Compiling verilog file "n_bit_load_store_register.v" in library work
+Module <progct_nbit> compiled
+Compiling verilog file "mux_4x1_8bit.v" in library work
+Module <n_bit_load_store_register> compiled
+Compiling verilog file "CPU1.v" in library work
+Module <mux4x1> compiled
+Module <CPU1> compiled
+No errors in compilation
+Analysis of file <"CPU1.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <CPU1> in library <work> with parameters.
+	AddressZero = "00000000"
+	InstrRAMclear = "00000000000000000000000000000001"
+	InstrRAMenable = "00000000000000000000000000000001"
+	InstrRAMread_en = "00000000000000000000000000000001"
+	InstrRAMwrite_en = "00000000000000000000000000000000"
+	ProCounterControl = "01"
+	ProCounterclr = "1"
+	StageRegclr = "1"
+	StageRegset = "1"
+	interruptAddr = "01100100"
+	s0 = "00000000000000000000000000000000"
+	s00 = "00000000000000000000000001100100"
+	s1 = "00000000000000000000000000000001"
+	s10 = "00000000000000000000000000001010"
+	s2 = "00000000000000000000000000000010"
+	s3 = "00000000000000000000000000000011"
+	s4 = "00000000000000000000000000000100"
+	s5 = "00000000000000000000000000000101"
+	s6 = "00000000000000000000000000000110"
+	s7 = "00000000000000000000000000000111"
+	s8 = "00000000000000000000000000001000"
+	s9 = "00000000000000000000000000001001"
+	s98 = "00000000000000000000000001100010"
+	s99 = "00000000000000000000000001100011"
+
+Analyzing hierarchy for module <RAM> in library <work> with parameters.
+	a = "00000000000000000000000000001000"
+	w = "00000000000000000000000000010000"
+
+Analyzing hierarchy for module <mux4x1> in library <work>.
+
+Analyzing hierarchy for module <progct_nbit> in library <work> with parameters.
+	m = "00000000000000000000000000000010"
+	n = "00000000000000000000000000001000"
+
+Analyzing hierarchy for module <n_bit_load_store_register> in library <work> with parameters.
+	n = "00000000000000000000000000001000"
+
+Analyzing hierarchy for module <load_store_register_bitslice> in library <work>.
+
+Analyzing hierarchy for module <mux_2x1_rtl> in library <work>.
+
+Analyzing hierarchy for module <positive_edge_triggered_d_flipflop> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <CPU1>.
+	AddressZero = 8'b00000000
+	InstrRAMclear = 32'sb00000000000000000000000000000001
+	InstrRAMenable = 32'sb00000000000000000000000000000001
+	InstrRAMread_en = 32'sb00000000000000000000000000000001
+	InstrRAMwrite_en = 32'sb00000000000000000000000000000000
+	ProCounterControl = 2'b01
+	ProCounterclr = 1'b1
+	StageRegclr = 1'b1
+	StageRegset = 1'b1
+	interruptAddr = 8'b01100100
+	s0 = 32'sb00000000000000000000000000000000
+	s00 = 32'sb00000000000000000000000001100100
+	s1 = 32'sb00000000000000000000000000000001
+	s10 = 32'sb00000000000000000000000000001010
+	s2 = 32'sb00000000000000000000000000000010
+	s3 = 32'sb00000000000000000000000000000011
+	s4 = 32'sb00000000000000000000000000000100
+	s5 = 32'sb00000000000000000000000000000101
+	s6 = 32'sb00000000000000000000000000000110
+	s7 = 32'sb00000000000000000000000000000111
+	s8 = 32'sb00000000000000000000000000001000
+	s9 = 32'sb00000000000000000000000000001001
+	s98 = 32'sb00000000000000000000000001100010
+	s99 = 32'sb00000000000000000000000001100011
+WARNING:Xst:905 - "CPU1.v" line 81: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <interrupt>
+WARNING:Xst:905 - "CPU1.v" line 109: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <ProCounterout>
+Module <CPU1> is correct for synthesis.
+ 
+Analyzing module <RAM> in library <work>.
+	a = 32'sb00000000000000000000000000001000
+	w = 32'sb00000000000000000000000000010000
+Module <RAM> is correct for synthesis.
+ 
+Analyzing module <mux4x1> in library <work>.
+Module <mux4x1> is correct for synthesis.
+ 
+Analyzing module <progct_nbit> in library <work>.
+	m = 32'sb00000000000000000000000000000010
+	n = 32'sb00000000000000000000000000001000
+Module <progct_nbit> is correct for synthesis.
+ 
+Analyzing module <n_bit_load_store_register> in library <work>.
+	n = 32'sb00000000000000000000000000001000
+Module <n_bit_load_store_register> is correct for synthesis.
+ 
+Analyzing module <load_store_register_bitslice> in library <work>.
+Module <load_store_register_bitslice> is correct for synthesis.
+ 
+Analyzing module <mux_2x1_rtl> in library <work>.
+Module <mux_2x1_rtl> is correct for synthesis.
+ 
+Analyzing module <positive_edge_triggered_d_flipflop> in library <work>.
+Module <positive_edge_triggered_d_flipflop> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <i> in unit <RAM> has a constant value of 100000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <j> in unit <RAM> has a constant value of 10000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <i> in unit <progct_nbit> has a constant value of 1000 during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <RAM>.
+    Related source file is "RAM.v".
+    Register <reg_array<100>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<101>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<102>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<103>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<104>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<105>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<106>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<107>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<108>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<109>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<10>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<110>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<111>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<112>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<113>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<114>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<115>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<116>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<117>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<118>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<119>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<11>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<120>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<121>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<122>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<123>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<124>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<125>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<126>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<127>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<128>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<129>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<12>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<130>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<131>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<132>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<133>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<134>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<135>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<136>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<137>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<138>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<139>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<13>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<140>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<141>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<142>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<143>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<144>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<145>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<146>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<147>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<148>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<149>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<14>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<150>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<151>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<152>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<153>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<154>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<155>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<156>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<157>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<158>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<159>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<15>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<160>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<161>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<162>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<163>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<164>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<165>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<166>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<167>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<168>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<169>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<16>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<170>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<171>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<172>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<173>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<174>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<175>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<176>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<177>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<178>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<179>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<17>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<180>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<181>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<182>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<183>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<184>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<185>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<186>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<187>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<188>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<189>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<18>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<190>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<191>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<192>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<193>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<194>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<195>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<196>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<197>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<198>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<199>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<19>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<1>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<200>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<201>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<202>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<203>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<204>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<205>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<206>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<207>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<208>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<209>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<20>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<210>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<211>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<212>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<213>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<214>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<215>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<216>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<217>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<218>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<219>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<21>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<220>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<221>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<222>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<223>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<224>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<225>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<226>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<227>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<228>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<229>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<22>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<230>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<231>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<232>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<233>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<234>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<235>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<236>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<237>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<238>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<239>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<23>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<240>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<241>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<242>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<243>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<244>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<245>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<246>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<247>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<248>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<249>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<24>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<250>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<251>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<252>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<253>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<254>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<255>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<25>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<26>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<27>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<28>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<29>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<2>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<30>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<31>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<32>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<33>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<34>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<35>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<36>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<37>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<38>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<39>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<3>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<40>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<41>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<42>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<43>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<44>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<45>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<46>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<47>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<48>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<49>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<4>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<50>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<51>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<52>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<53>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<54>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<55>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<56>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<57>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<58>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<59>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<5>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<60>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<61>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<62>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<63>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<64>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<65>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<66>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<67>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<68>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<69>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<6>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<70>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<71>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<72>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<73>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<74>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<75>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<76>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<77>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<78>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<79>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<7>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<80>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<81>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<82>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<83>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<84>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<85>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<86>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<87>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<88>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<89>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<8>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<90>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<91>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<92>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<93>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<94>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<95>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<96>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<97>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<98>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<99>> equivalent to <reg_array<0>> has been removed
+    Register <reg_array<9>> equivalent to <reg_array<0>> has been removed
+    Found 16-bit register for signal <dataout>.
+    Found 16-bit register for signal <reg_array<0>>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+	inferred  16 Multiplexer(s).
+Unit <RAM> synthesized.
+
+
+Synthesizing Unit <mux4x1>.
+    Related source file is "mux_4x1_8bit.v".
+    Found 8-bit 4-to-1 multiplexer for signal <out>.
+    Summary:
+	inferred   8 Multiplexer(s).
+Unit <mux4x1> synthesized.
+
+
+Synthesizing Unit <progct_nbit>.
+    Related source file is "progct_nbit.v".
+    Found 8-bit register for signal <out>.
+    Found 8-bit adder for signal <$add0000> created at line 38.
+    Found 8-bit adder for signal <$add0001> created at line 39.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+Unit <progct_nbit> synthesized.
+
+
+Synthesizing Unit <mux_2x1_rtl>.
+    Related source file is "mux_2x1_rtl.v".
+Unit <mux_2x1_rtl> synthesized.
+
+
+Synthesizing Unit <positive_edge_triggered_d_flipflop>.
+    Related source file is "positive_edge_triggered_d_flipflop.v".
+    Found 1-bit register for signal <q>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <positive_edge_triggered_d_flipflop> synthesized.
+
+
+Synthesizing Unit <load_store_register_bitslice>.
+    Related source file is "load_store_register_bitslice.v".
+Unit <load_store_register_bitslice> synthesized.
+
+
+Synthesizing Unit <n_bit_load_store_register>.
+    Related source file is "n_bit_load_store_register.v".
+Unit <n_bit_load_store_register> synthesized.
+
+
+Synthesizing Unit <CPU1>.
+    Related source file is "CPU1.v".
+WARNING:Xst:653 - Signal <datain> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:1780 - Signal <StageRegPCtr_in> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <StageRegInstr_in> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <StageRegAddrMode_in> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <PCtrInMUXin_3> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:2110 - Clock of register <sp> seems to be also used in the data or control logic of that element.
+WARNING:Xst:737 - Found 8-bit latch for signal <InteruptAdrReg>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <sp> of Case statement line 82 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <sp> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+    Using one-hot encoding for signal <sp>.
+WARNING:Xst:737 - Found 9-bit latch for signal <S>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 2-bit latch for signal <PCtrInMUXselect>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <FirstStageComplete>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <StageRegld_str>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+    Found 9-bit register for signal <sp>.
+    Summary:
+	inferred   9 D-type flip-flop(s).
+Unit <CPU1> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 58
+ 1-bit register                                        : 56
+ 16-bit register                                       : 1
+ 9-bit register                                        : 1
+# Latches                                              : 5
+ 1-bit latch                                           : 2
+ 2-bit latch                                           : 1
+ 8-bit latch                                           : 1
+ 9-bit latch                                           : 1
+# Multiplexers                                         : 2
+ 16-bit 256-to-1 multiplexer                           : 1
+ 8-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <bitreg[5].register_bitslice> is unconnected in block <StageRegInstr>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <bitreg[6].register_bitslice> is unconnected in block <StageRegInstr>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <bitreg[7].register_bitslice> is unconnected in block <StageRegInstr>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <bitreg[3].register_bitslice> is unconnected in block <StageRegAddrMode>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <bitreg[4].register_bitslice> is unconnected in block <StageRegAddrMode>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <bitreg[5].register_bitslice> is unconnected in block <StageRegAddrMode>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <bitreg[6].register_bitslice> is unconnected in block <StageRegAddrMode>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <bitreg[7].register_bitslice> is unconnected in block <StageRegAddrMode>.
+   It will be removed from the design.
+INFO:Xst:2261 - The FF/Latch <reg_array_0_1> in Unit <IRAM> is equivalent to the following 14 FFs/Latches, which will be removed : <reg_array_0_2> <reg_array_0_3> <reg_array_0_4> <reg_array_0_5> <reg_array_0_6> <reg_array_0_7> <reg_array_0_8> <reg_array_0_9> <reg_array_0_10> <reg_array_0_11> <reg_array_0_12> <reg_array_0_13> <reg_array_0_14> <reg_array_0_15> 
+WARNING:Xst:1426 - The value init of the FF/Latch reg_array_0_0 hinder the constant cleaning in the block IRAM.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1293 - FF/Latch <reg_array_0_0> has a constant value of 1 in block <IRAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <reg_array_0_1> has a constant value of 0 in block <IRAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <8>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 81
+ Flip-Flops                                            : 81
+# Latches                                              : 5
+ 1-bit latch                                           : 2
+ 2-bit latch                                           : 1
+ 8-bit latch                                           : 1
+ 9-bit latch                                           : 1
+# Multiplexers                                         : 2
+ 16-bit 256-to-1 multiplexer                           : 1
+ 8-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1426 - The value init of the FF/Latch reg_array_0_0 hinder the constant cleaning in the block RAM.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1293 - FF/Latch <reg_array_0_0> has a constant value of 1 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <reg_array_0_1> has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <reg_array_0_2> has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <reg_array_0_3> has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <reg_array_0_4> has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <reg_array_0_5> has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <reg_array_0_6> has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <reg_array_0_7> has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <reg_array_0_8> has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <reg_array_0_9> has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <reg_array_0_10> has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <reg_array_0_11> has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <reg_array_0_12> has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <reg_array_0_13> has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <reg_array_0_14> has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <reg_array_0_15> has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <8> in Unit <LPM_LATCH_3> is equivalent to the following FF/Latch, which will be removed : <0> 
+WARNING:Xst:1710 - FF/Latch <8> (without init value) has a constant value of 0 in block <LPM_LATCH_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <dataout_1> (without init value) has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dataout_0> (without init value) has a constant value of 1 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dataout_2> (without init value) has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dataout_3> (without init value) has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dataout_4> (without init value) has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dataout_5> (without init value) has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dataout_6> (without init value) has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dataout_7> (without init value) has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dataout_10> (without init value) has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dataout_8> (without init value) has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dataout_9> (without init value) has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dataout_11> (without init value) has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dataout_12> (without init value) has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dataout_13> (without init value) has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dataout_14> (without init value) has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dataout_15> (without init value) has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <CPU1> ...
+
+Optimizing unit <progct_nbit> ...
+
+Optimizing unit <n_bit_load_store_register> ...
+WARNING:Xst:1293 - FF/Latch <StageRegData/bitreg[1].register_bitslice/flipflop/q> has a constant value of 0 in block <CPU1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <StageRegData/bitreg[2].register_bitslice/flipflop/q> has a constant value of 0 in block <CPU1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <StageRegData/bitreg[3].register_bitslice/flipflop/q> has a constant value of 0 in block <CPU1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <StageRegData/bitreg[4].register_bitslice/flipflop/q> has a constant value of 0 in block <CPU1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <StageRegData/bitreg[5].register_bitslice/flipflop/q> has a constant value of 0 in block <CPU1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <StageRegData/bitreg[6].register_bitslice/flipflop/q> has a constant value of 0 in block <CPU1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <StageRegData/bitreg[7].register_bitslice/flipflop/q> has a constant value of 0 in block <CPU1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <StageRegAddrMode/bitreg[0].register_bitslice/flipflop/q> has a constant value of 0 in block <CPU1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <StageRegAddrMode/bitreg[1].register_bitslice/flipflop/q> has a constant value of 0 in block <CPU1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <StageRegAddrMode/bitreg[2].register_bitslice/flipflop/q> has a constant value of 0 in block <CPU1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <StageRegInstr/bitreg[0].register_bitslice/flipflop/q> has a constant value of 0 in block <CPU1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <StageRegInstr/bitreg[1].register_bitslice/flipflop/q> has a constant value of 0 in block <CPU1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <StageRegInstr/bitreg[2].register_bitslice/flipflop/q> has a constant value of 0 in block <CPU1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <StageRegInstr/bitreg[3].register_bitslice/flipflop/q> has a constant value of 0 in block <CPU1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <StageRegInstr/bitreg[4].register_bitslice/flipflop/q> has a constant value of 0 in block <CPU1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <StageRegAddrMode/bitreg[3].register_bitslice/flipflop/q> of sequential type is unconnected in block <CPU1>.
+WARNING:Xst:2677 - Node <StageRegAddrMode/bitreg[4].register_bitslice/flipflop/q> of sequential type is unconnected in block <CPU1>.
+WARNING:Xst:2677 - Node <StageRegAddrMode/bitreg[5].register_bitslice/flipflop/q> of sequential type is unconnected in block <CPU1>.
+WARNING:Xst:2677 - Node <StageRegAddrMode/bitreg[6].register_bitslice/flipflop/q> of sequential type is unconnected in block <CPU1>.
+WARNING:Xst:2677 - Node <StageRegAddrMode/bitreg[7].register_bitslice/flipflop/q> of sequential type is unconnected in block <CPU1>.
+WARNING:Xst:2677 - Node <StageRegInstr/bitreg[5].register_bitslice/flipflop/q> of sequential type is unconnected in block <CPU1>.
+WARNING:Xst:2677 - Node <StageRegInstr/bitreg[6].register_bitslice/flipflop/q> of sequential type is unconnected in block <CPU1>.
+WARNING:Xst:2677 - Node <StageRegInstr/bitreg[7].register_bitslice/flipflop/q> of sequential type is unconnected in block <CPU1>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block CPU1, actual ratio is 3.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 26
+ Flip-Flops                                            : 26
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : CPU1.ngr
+Top Level Output File Name         : CPU1
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 45
+
+Cell Usage :
+# BELS                             : 28
+#      GND                         : 1
+#      LUT2                        : 16
+#      LUT3                        : 11
+# FlipFlops/Latches                : 45
+#      FDR                         : 5
+#      FDRE                        : 8
+#      FDRS                        : 12
+#      FDSE                        : 1
+#      LD                          : 12
+#      LD_1                        : 7
+# Clock Buffers                    : 1
+#      BUFG                        : 1
+# IO Buffers                       : 45
+#      IBUF                        : 12
+#      OBUF                        : 33
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-5 
+
+ Number of Slices:                       21  out of    768     2%  
+ Number of Slice Flip Flops:             36  out of   1536     2%  
+ Number of 4 input LUTs:                 27  out of   1536     1%  
+ Number of IOs:                          45
+ Number of bonded IOBs:                  45  out of    124    36%  
+    IOB Flip Flops:                       9
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-------------------------------------------------------+----------------------------+-------+
+Clock Signal                                           | Clock buffer(FF name)      | Load  |
+-------------------------------------------------------+----------------------------+-------+
+clk                                                    | IBUF+BUFG                  | 26    |
+StageRegld_str_or0000(StageRegld_str_or00001:O)        | NONE(*)(StageRegld_str)    | 1     |
+FirstStageComplete_or0000(FirstStageComplete_or00001:O)| NONE(*)(FirstStageComplete)| 1     |
+PCtrInMUXselect_or0000(PCtrInMUXselect_or00001:O)      | NONE(*)(PCtrInMUXselect_0) | 2     |
+sp_7                                                   | NONE(S_1)                  | 7     |
+sp_4                                                   | NONE(InteruptAdrReg_0)     | 8     |
+-------------------------------------------------------+----------------------------+-------+
+(*) These 3 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 2.196ns (Maximum Frequency: 455.280MHz)
+   Minimum input arrival time before clock: 3.799ns
+   Maximum output required time after clock: 6.280ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 2.196ns (frequency: 455.280MHz)
+  Total number of paths / destination ports: 17 / 9
+-------------------------------------------------------------------------
+Delay:               2.196ns (Levels of Logic = 1)
+  Source:            StageRegPCtr/bitreg[0].register_bitslice/flipflop/q (FF)
+  Destination:       StageRegPCtr/bitreg[0].register_bitslice/flipflop/q (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: StageRegPCtr/bitreg[0].register_bitslice/flipflop/q to StageRegPCtr/bitreg[0].register_bitslice/flipflop/q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRS:C->Q             2   0.626   0.915  StageRegPCtr/bitreg[0].register_bitslice/flipflop/q (StageRegPCtr/bitreg[0].register_bitslice/flipflop/q)
+     LUT3:I1->O            1   0.479   0.000  StageRegPCtr/bitreg[0].register_bitslice/mux_2x1/out1 (StageRegPCtr/bitreg[0].register_bitslice/w_mux_to_d)
+     FDRS:D                    0.176          StageRegPCtr/bitreg[0].register_bitslice/flipflop/q
+    ----------------------------------------
+    Total                      2.196ns (1.281ns logic, 0.915ns route)
+                                       (58.3% logic, 41.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 43 / 34
+-------------------------------------------------------------------------
+Offset:              3.799ns (Levels of Logic = 2)
+  Source:            StartEverything (PAD)
+  Destination:       sp_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: StartEverything to sp_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             9   0.715   1.125  StartEverything_IBUF (StartEverything_IBUF)
+     LUT2:I1->O            9   0.479   0.955  sp_not00011 (sp_not0001)
+     FDSE:CE                   0.524          sp_0
+    ----------------------------------------
+    Total                      3.799ns (1.718ns logic, 2.081ns route)
+                                       (45.2% logic, 54.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'sp_7'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              2.410ns (Levels of Logic = 2)
+  Source:            interrupt (PAD)
+  Destination:       S_1 (LATCH)
+  Destination Clock: sp_7 rising
+
+  Data Path: interrupt to S_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.715   1.040  interrupt_IBUF (interrupt_IBUF)
+     LUT2:I0->O            1   0.479   0.000  S_mux0000<1>1 (S_mux0000<1>)
+     LD_1:D                    0.176          S_1
+    ----------------------------------------
+    Total                      2.410ns (1.370ns logic, 1.040ns route)
+                                       (56.8% logic, 43.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'FirstStageComplete_or0000'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              6.141ns (Levels of Logic = 1)
+  Source:            FirstStageComplete (LATCH)
+  Destination:       FirstStageComplete (PAD)
+  Source Clock:      FirstStageComplete_or0000 falling
+
+  Data Path: FirstStageComplete to FirstStageComplete
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.551   0.681  FirstStageComplete (FirstStageComplete_OBUF)
+     OBUF:I->O                 4.909          FirstStageComplete_OBUF (FirstStageComplete)
+    ----------------------------------------
+    Total                      6.141ns (5.460ns logic, 0.681ns route)
+                                       (88.9% logic, 11.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 9 / 9
+-------------------------------------------------------------------------
+Offset:              6.280ns (Levels of Logic = 1)
+  Source:            StageRegData/bitreg[0].register_bitslice/flipflop/q (FF)
+  Destination:       StageRegData_out<0> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: StageRegData/bitreg[0].register_bitslice/flipflop/q to StageRegData_out<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRS:C->Q             2   0.626   0.745  StageRegData/bitreg[0].register_bitslice/flipflop/q (StageRegData/bitreg[0].register_bitslice/flipflop/q)
+     OBUF:I->O                 4.909          StageRegData_out_0_OBUF (StageRegData_out<0>)
+    ----------------------------------------
+    Total                      6.280ns (5.535ns logic, 0.745ns route)
+                                       (88.1% logic, 11.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'sp_4'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              6.141ns (Levels of Logic = 1)
+  Source:            InteruptAdrReg_7 (LATCH)
+  Destination:       InteruptAdrReg<7> (PAD)
+  Source Clock:      sp_4 falling
+
+  Data Path: InteruptAdrReg_7 to InteruptAdrReg<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.551   0.681  InteruptAdrReg_7 (InteruptAdrReg_7)
+     OBUF:I->O                 4.909          InteruptAdrReg_7_OBUF (InteruptAdrReg<7>)
+    ----------------------------------------
+    Total                      6.141ns (5.460ns logic, 0.681ns route)
+                                       (88.9% logic, 11.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.83 secs
+ 
+--> 
+
+Total memory usage is 225036 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   93 (   0 filtered)
+Number of infos    :   11 (   0 filtered)
+

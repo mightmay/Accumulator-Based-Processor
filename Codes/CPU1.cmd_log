@@ -1,0 +1,153 @@
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 
+xst -intstyle ise -ifn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.xst" -ofn "C:/Users/Computer/Desktop/verlilog/controller-final/CPU1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 CPU1.ngc CPU1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o CPU1_map.ncd CPU1.ngd CPU1.pcf 
+par -w -intstyle ise -ol high -t 1 CPU1_map.ncd CPU1.ncd CPU1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU1.twx CPU1.ncd -o CPU1.twr CPU1.pcf 

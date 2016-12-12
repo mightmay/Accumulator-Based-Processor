@@ -1,0 +1,61 @@
+Release 14.5 - xst P.58f (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Computer/Desktop/verlilog/controller-final/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Computer/Desktop/verlilog/controller-final/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "positive_edge_triggered_d_flipflop.v" in library work
+Compiling verilog file "mux_4x1_behavioral.v" in library work
+Module <positive_edge_triggered_d_flipflop> compiled
+Compiling verilog file "mux_2x1_rtl.v" in library work
+Module <mux_4x1_behavioral> compiled
+Compiling verilog file "bfa_gl.v" in library work
+Module <mux_2x1_rtl> compiled
+Compiling verilog file "load_store_register_bitslice.v" in library work
+Module <bfa_gl> compiled
+Compiling verilog file "alu_bitslice.v" in library work
+Module <load_store_register_bitslice> compiled
+Compiling verilog file "n_bit_load_store_register.v" in library work
+Module <alu_bitslice> compiled
+Compiling verilog file "n_bit_alu.v" in library work
+Module <n_bit_load_store_register> compiled
+Compiling verilog file "nBitArithShifterGen.v" in library work
+Module <n_bit_alu> compiled
+Compiling verilog file "mux_4x1_8bit.v" in library work
+Module <nBitArithShifterGen> compiled
+Compiling verilog file "mux4x1ALUin.v" in library work
+Module <mux4x1> compiled
+Compiling verilog file "DataRAM.v" in library work
+Module <mux4x1ALUin> compiled
+Compiling verilog file "CPU2.v" in library work
+Module <DataRAMRAM> compiled
+Module <CPU2> compiled
+No errors in compilation
+Analysis of file <"CPU2.prj"> succeeded.
+ 
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.30 secs
+ 
+--> 
+
+Total memory usage is 182988 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
